@@ -6,7 +6,7 @@ Matrix createMatrix(int rows, int cols) {
     Matrix mat;
     mat.rows = rows;
     mat.cols = cols;
-    mat.data = (double *)malloc(rows * cols * sizeof(double));
+    mat.data = (double*)malloc(rows * cols * sizeof(double));
     return mat;
 }
 

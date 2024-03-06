@@ -1,10 +1,10 @@
 #ifndef MATRIX_H
 #define MATRIX_H
 
-typedef struct {
+typedef struct{
     int rows;
     int cols;
-    double *data;
+    double* data;
 } Matrix;
 
 Matrix createMatrix(int rows, int cols);
