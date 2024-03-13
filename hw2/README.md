@@ -1,7 +1,7 @@
 ```
 ...
 
-DOWHILE = do STMT while (E)
+// DOWHILE = do STMT while (E)
 void DOWHILE() { // 定義 DOWHILE 函數，用於解析 do-while 循環
   int dowhileBegin = nextLabel(); // 獲取下一個標籤索引並賦值給 dowhileBegin
   skip("do"); // 跳過 'do' 關鍵字
