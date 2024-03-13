@@ -1,4 +1,4 @@
-```
+```c
 ...
 
 // DOWHILE = do STMT while (E)
@@ -14,9 +14,10 @@ void DOWHILE() { // 定義 DOWHILE 函數，用於解析 do-while 循環
   skip(")"); // 跳過 ')'
   skip(";"); // 跳過 ';'
 }
+
 ...
 ```
-```
+```c
 ============ parse =============
 t0 = 1
 i = t0
