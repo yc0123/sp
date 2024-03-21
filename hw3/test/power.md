@@ -1,3 +1,4 @@
+```
 1: #include<stdio.h>
 2: 
 3: int power(int a,int n)
@@ -73,3 +74,4 @@
     ADJ  2
 22: }
     LEV
+```
